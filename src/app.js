@@ -8,16 +8,16 @@ import "./assets/img/4geeks.ico";
 window.onload = function () {
   //write your code here
 
-  let pronoun = ['the', 'our', 'their', 'its'];
-  let adj = ['great', 'big', 'almighty', 'astronomical'];
-  let noun = ['jogger', 'racoon', 'protector', 'commander'];
-  let dom = [".com", ".co", ".gov", ".es", ".net"]
+  let pronouns = ['the', 'our', 'their', 'its'];
+  let adjectives = ['great', 'big', 'almighty', 'astronomical'];
+  let nouns = ['jogger', 'racoon', 'protector', 'commander'];
+  let domains = [".com", ".co", ".gov", ".es", ".net"]
 
   for (let i in pronoun) {
-    for (let j in adj) {
-      for (let k in noun) {
-        for (let l in dom) {
-          console.log(pronoun[i] + adj[j] + noun[k] + dom[l])
+    for (let j in adjectives) {
+      for (let k in nouns) {
+        for (let l in domains) {
+          console.log(pronouns[i] + adjectives[j] + nouns[k] + domains[l])
         }
       }
     }
